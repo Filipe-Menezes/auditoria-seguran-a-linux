@@ -61,8 +61,6 @@ Resultado:
 
 **Análise:** o kernel em execução é o 7.0.0-38-generic.
 
-**Limitação:** essas verificações identificam componentes do ambiente, mas não são suficientes para determinar o nível geral de segurança da máquina.
-
 ## 3. Objetivos
 
 - Verificar usuários e privilégios administrativos.
