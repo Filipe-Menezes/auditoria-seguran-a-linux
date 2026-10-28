@@ -73,6 +73,8 @@ Resultado:
 
 **Análise:** o kernel em execução é o 7.0.0-38-generic.
 
+Screenshots referentes a esta verificação na pasta Reconhecimento inicial deste repositório.
+
 ## 4. Objetivos
 
 - Verificar usuários e privilégios administrativos.
