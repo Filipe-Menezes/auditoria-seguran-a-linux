@@ -71,9 +71,13 @@ Resultado:
 
 ## 4. Metodologia
 
-A auditoria será realizada por meio de comandos nativos do Linux e da análise de suas saídas. As verificações serão feitas no ambiente de laboratório, sem realizar testes contra sistemas de terceiros.
+A auditoria foi realizada manualmente em uma máquina virtual Ubuntu Linux, utilizando comandos nativos do sistema para coletar informações sobre configurações relevantes para a segurança.
 
-Os resultados serão classificados conforme o contexto, os riscos identificados e as limitações de cada verificação.
+As verificações abrangeram usuários e privilégios administrativos, permissões de arquivos, serviços em execução, portas em escuta, configuração do firewall.
+
+Os resultados foram analisados considerando o contexto do ambiente, as evidências coletadas e as limitações de cada verificação. As recomendações foram formuladas com base nos pontos de atenção identificados, sem classificar automaticamente toda configuração observada como uma vulnerabilidade.
+
+A atividade foi conduzida em um ambiente de laboratório controlado, sem testes contra sistemas de terceiros.
 
 ## 5. Resultados da auditoria
 
@@ -459,3 +463,18 @@ Esses pontos não representam, automaticamente, vulnerabilidades confirmadas. Ca
 O exercício demonstrou a importância de coletar evidências técnicas, interpretar resultados e propor recomendações proporcionais ao que foi observado.
 
 **Limitação:** esta foi uma auditoria básica de configuração. Não foram realizadas todas as verificações possíveis, testes de exploração ou uma avaliação completa de vulnerabilidades. Portanto, os resultados não garantem que o sistema esteja livre de falhas de segurança.
+
+## 7. Aprendizados
+
+Durante este projeto, pratiquei a utilização de comandos Linux para coletar e interpretar informações relevantes para uma auditoria básica de segurança.
+
+Os principais aprendizados foram:
+
+- Identificar usuários, grupos e privilégios administrativos.
+- Analisar permissões e proprietários de arquivos importantes do sistema.
+- Consultar serviços em execução e portas em estado de escuta.
+- Interpretar o estado do firewall e considerar o contexto da configuração de rede.
+- Verificar atualizações disponíveis e o funcionamento do mecanismo de atualização automática.
+- Registrar evidências, reconhecer limitações da análise e formular recomendações proporcionais aos resultados observados.
+
+O projeto reforçou a importância de investigar antes de concluir, diferenciar pontos de atenção de vulnerabilidades confirmadas e documentar os resultados de forma clara e reproduzível.
