@@ -33,6 +33,8 @@ O ambiente foi preparado para permitir verificações de segurança em um sistem
 - **Armazenamento virtual:** 40 GB
 - **Rede:** NAT
 
+Estas especificações podem ser conferidas por meio das screeshots que estão armazenadas na pasta Sistema deste mesmo repositório.
+
 ### 3.2. Reconhecimento inicial
 
 A primeira etapa consistiu em identificar o sistema operacional e a versão do kernel em execução.
