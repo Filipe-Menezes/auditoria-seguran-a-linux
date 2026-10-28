@@ -6,13 +6,23 @@ Este projeto consiste em uma auditoria básica de segurança realizada em uma m�
 
 O objetivo é identificar e analisar configurações relacionadas à segurança do sistema, compreender possíveis riscos e registrar os resultados encontrados.
 
-## 2. Preparação do ambiente
+## 2. Metodologia
+
+A auditoria foi realizada manualmente em uma máquina virtual Ubuntu Linux, utilizando comandos nativos do sistema para coletar informações sobre configurações relevantes para a segurança.
+
+As verificações abrangeram usuários e privilégios administrativos, permissões de arquivos, serviços em execução, portas em escuta, configuração do firewall.
+
+Os resultados foram analisados considerando o contexto do ambiente, as evidências coletadas e as limitações de cada verificação. As recomendações foram formuladas com base nos pontos de atenção identificados, sem classificar automaticamente toda configuração observada como uma vulnerabilidade.
+
+A atividade foi conduzida em um ambiente de laboratório controlado, sem testes contra sistemas de terceiros.
+
+## 3. Preparação do ambiente
 
 A auditoria está sendo realizada em uma máquina virtual dedicada, utilizando o Oracle VirtualBox e uma instalação do Ubuntu Linux.
 
 O ambiente foi preparado para permitir verificações de segurança em um sistema controlado, sem interferir no sistema operacional principal do computador.
 
-### 2.1. Configurações do ambiente
+### 3.1. Configurações do ambiente
 
 - **Hipervisor:** Oracle VirtualBox
 - **Sistema operacional:** Ubuntu 26.04.1 LTS
@@ -23,7 +33,7 @@ O ambiente foi preparado para permitir verificações de segurança em um sistem
 - **Armazenamento virtual:** 40 GB
 - **Rede:** NAT
 
-### 2.2. Reconhecimento inicial
+### 3.2. Reconhecimento inicial
 
 A primeira etapa consistiu em identificar o sistema operacional e a versão do kernel em execução.
 
@@ -61,23 +71,13 @@ Resultado:
 
 **Análise:** o kernel em execução é o 7.0.0-38-generic.
 
-## 3. Objetivos
+## 4. Objetivos
 
 - Verificar usuários e privilégios administrativos.
 - Analisar permissões de arquivos e diretórios importantes.
 - Identificar serviços ativos e portas em escuta.
 - Examinar configurações básicas do serviço SSH.
 - Documentar as descobertas e propor melhorias quando necessário.
-
-## 4. Metodologia
-
-A auditoria foi realizada manualmente em uma máquina virtual Ubuntu Linux, utilizando comandos nativos do sistema para coletar informações sobre configurações relevantes para a segurança.
-
-As verificações abrangeram usuários e privilégios administrativos, permissões de arquivos, serviços em execução, portas em escuta, configuração do firewall.
-
-Os resultados foram analisados considerando o contexto do ambiente, as evidências coletadas e as limitações de cada verificação. As recomendações foram formuladas com base nos pontos de atenção identificados, sem classificar automaticamente toda configuração observada como uma vulnerabilidade.
-
-A atividade foi conduzida em um ambiente de laboratório controlado, sem testes contra sistemas de terceiros.
 
 ## 5. Resultados da auditoria
 
