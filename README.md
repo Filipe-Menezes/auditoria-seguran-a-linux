@@ -33,7 +33,7 @@ O ambiente foi preparado para permitir verificações de segurança em um sistem
 - **Armazenamento virtual:** 40 GB
 - **Rede:** NAT
 
-Estas especificações podem ser conferidas por meio das screeshots que estão armazenadas na pasta Sistema deste mesmo repositório.
+Estas especificações podem ser conferidas por meio das screeshots que estão armazenadas na pasta **"Sistema"** deste mesmo repositório.
 
 ### 3.2. Reconhecimento inicial
 
@@ -73,7 +73,7 @@ Resultado:
 
 **Análise:** o kernel em execução é o 7.0.0-38-generic.
 
-Screenshots referentes a esta verificação na pasta Reconhecimento inicial deste repositório.
+Screenshots referentes a esta verificação estão na pasta **"Reconhecimento inicial"** deste repositório.
 
 ## 4. Objetivos
 
@@ -90,6 +90,8 @@ Esta seção documenta as verificações realizadas durante uma auditoria básic
 Para cada verificação, são apresentados o objetivo, o comando utilizado, as evidências coletadas, a análise técnica e, quando aplicável, as recomendações.
 
 Os resultados representam o estado observado durante a auditoria. A ausência de uma falha evidente em determinada verificação não garante que o sistema esteja livre de vulnerabilidades.
+
+Todos os comandos e saídas podem ser verificados na pasta **"Comandos e saídas da auditoria"** deste mesmo repositório.
 
 ### 5.1. Usuários, grupos e privilégios
 
